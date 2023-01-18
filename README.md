@@ -51,7 +51,7 @@ After downloading and extracting the source from a tarball to a directory
 systems are:
 
     mkdir build && cd build
-    cmake ..
+    cmake -DBUILD_TOOLS=OFF ..
     cmake --build . [--config Release]
 
 The --config Release flag should be used in multi-configuration generators e.g.,
